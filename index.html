@@ -125,6 +125,11 @@ https://github.com/gnab/remark/issues/50
           float: right;
       }
 
+      img[alt*="right400:"] {
+          width: 300px;
+          float: right;
+      }
+
      img[alt*="right450:"] {
          width: 450px;
          float: right;
@@ -208,9 +213,9 @@ $\|| . \||^2$ is a *spline* smoothness constraint.
 ---
 # DIVAnd (cont)
 
-* Can take topography and ocean currents into account
+* Can take __topography__ and __ocean currents__ into account
 * Similar to optimal interpolation
-* Can provide an consistent estimate of the expected error variance
+* Can provide an __consistent estimate of the expected error variance__
 * Rewrite of the DIVA tool originally written in Fortran
 * In January 2020, we had a DIVAnd workshop with 20 participants (in the frame of the projects: SeaDataCloud, EMODNET Chemistry, EMODNET Physics)
 * Notebooks are available here: https://github.com/gher-ulg/Diva-Workshops/tree/master/notebooks
@@ -231,11 +236,12 @@ $\|| . \||^2$ is a *spline* smoothness constraint.
 
 # [PhysOcean](https://github.com/gher-ulg/PhysOcean.jl)
 
+![right450:](Fig/WOD_SeaDataNet.png)
 * __Equation of State of Seawater (EOS-80)__ in pure Julia: compute the density (and other parameters) from temperature, salinity and pressure
 * Heat fluxes, geostrophy, steric height
 * Automatic data download utilities for:
-   * CMEMS (Copernicus Marine environment monitoring service) in situ service
-   * World Ocean Database (US NODC)
+   * __CMEMS__ (Copernicus Marine environment monitoring service) in situ service
+   * __World Ocean Database__ (US NODC)
 * See also https://github.com/TEOS-10/GibbsSeaWater.jl
 
 ---
