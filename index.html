@@ -223,9 +223,8 @@ $\|| . \||^2$ is a *spline* smoothness constraint.
 * the attributes `_FillValue`, `scale_factor`, `add_offset` are applied if present
 * time variables (recognized by the units attribute) are returned as __DateTime__ objects.
 * Support of the __CF calendars__ (standard, Gregorian, proleptic Gregorian, Julian, all leap, no leap, 360 day)
-* the raw data can also be accessed (without the transformations above).
 * advanced (or less used) NetCDF 4 features: __compression__, __variable-length arrays__, NetCDF __groups__
-* multi-file support: aggregation of multiple files over a dimension (e.g. time)
+* __multi-file support__: aggregation of multiple files over a dimension (e.g. time)
 * [NetCDF.jl](https://github.com/JuliaGeo/NetCDF.jl) from Fabian Gans is an alternative to this package which supports a more Matlab/Octave-like interface for reading and writing NetCDF files while NCDatasets aims for a more python-like interface (python's netCDF4)
 
 ---
